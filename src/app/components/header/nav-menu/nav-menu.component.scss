@@ -1,0 +1,26 @@
+.menu{
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    i{
+        margin-right: 3px;
+    }
+
+    &__link{
+        color: var(--text-gray);
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-left: 30px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    &__link:hover{
+        color: white;
+        transition: 0.3s;
+    }
+}

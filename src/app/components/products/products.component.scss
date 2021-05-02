@@ -1,0 +1,48 @@
+.products{
+    margin-top: 50px;
+    
+    &__title{
+        text-transform: uppercase;
+        color: var(--dark-gray);
+        font-size: 18px;
+    }
+
+    &__items{
+        width: 1230px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+
+    &_card{
+        width: 20%;
+        min-height: 300px;
+        max-height: auto;
+        border: 1px solid var(--light-gray);
+        border-radius: 3px;
+        margin-top: 15px;
+        padding: 20px;
+        margin-right: 15px;
+    }
+
+    &__pages{
+        margin-top: 30px;
+    }
+
+    &__pages button{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        background: none;
+        border: none;
+        transition: 0.3s;
+    }
+
+    &__pages button:hover{
+        color: white;
+        background: var(--dark-gray);
+        transition: 0.3s;
+    }
+}

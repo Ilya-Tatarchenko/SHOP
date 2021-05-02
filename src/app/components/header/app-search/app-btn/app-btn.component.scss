@@ -1,0 +1,17 @@
+.button {
+    button {
+        text-transform: uppercase;
+        background: none;
+        color: var(--green);
+        border: 1px solid var(--green);
+        height: 40px;
+        padding: 10px 10px 10px 10px;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        color: #fff;
+        background: var(--green);
+        transition: 0.3s;
+    }
+}

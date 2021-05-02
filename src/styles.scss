@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+//Базовые стили
+*{ margin: 0; padding: 0; border: 0; }
+
+html { height: 100%; }
+body { width: 100%; height: 100%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;} 
+button { cursor: pointer; }
+a { font-size: 12px; text-decoration: none; }
+ul li { list-style: none; }
+
+.container { max-width: 1200px; margin: 0 auto; min-height: 100%; }
+
+
+//Основные цвета
+:root {
+    --dark-gray: #303238;
+    --light-gray: #cecfda;
+    --text-gray: #949bad;
+    --green: #28CC88; 
+}
+
+
+
